@@ -13,13 +13,13 @@ class List < ApplicationRecord
     end
   end
 
-  def total_duration
-    total = 0
-    tasks.each do |task|
-      total += task.duration
-    end
-    return total
-  end
+  # def total_duration
+  #   total = 0
+  #   tasks.each do |task|
+  #     total += task.duration
+  #   end
+  #   return total
+  # end
 
   def incomplete_tasks
     array_of_tasks = []
